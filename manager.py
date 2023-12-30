@@ -1,5 +1,5 @@
 import discord
-from MySql import *
+from MySql import setup_database, security_msg
 from Informations import *
 
 intents = discord.Intents.default()

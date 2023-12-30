@@ -3,8 +3,7 @@ import mysql.connector
 from discord import ui
 from discord.ui import Button, View
 from tabulate import tabulate
-import asyncio
-import os
+
 
 f = open("setup.txt", "rt")
 HOST = f.readline()
